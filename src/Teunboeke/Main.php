@@ -35,3 +35,10 @@ class Main extends PluginBase implements Listener{
       public function onEnable(){
              $this->getLogger()->info("§aLoading OreGenerator");
              $this->getServer()->getPluginManager()->registerEvents($this,$this);
+      }
+  
+          public function onBlockSet(BlockUpdateEvent $event){
+          $block = $event->getBlock();
+          $water = false;
+          $fence = false;
+          for ($i = 2; $i <= 5; $i++) {
