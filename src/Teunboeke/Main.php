@@ -48,3 +48,8 @@ class Main extends PluginBase implements Listener{
                    } else if ($nearBlock instanceof Fence) {
                        $fence = true;
                    }
+            if ($water && $fence) {
+                $id = mt_rand(1, 30);
+                switch ($id) {
+                    case 16;
+                          $newBlock = new IronOre();
