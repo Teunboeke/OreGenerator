@@ -67,3 +67,5 @@ class Main extends PluginBase implements Listener{
                            $newBlock = new RedstoneOre();
                            break;
                     case 22;                          
+                            $newBlock = new DiamondOre();
+                                         break;	
