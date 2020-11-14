@@ -68,4 +68,5 @@ class Main extends PluginBase implements Listener{
                            break;
                     case 22;                          
                             $newBlock = new DiamondOre();
-                                         break;	
+                            break;	
+                    										
