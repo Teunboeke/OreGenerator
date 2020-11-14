@@ -64,4 +64,6 @@ class Main extends PluginBase implements Listener{
                            $newBlock = new CoalOre();
                            break;
                     case 26;
-                            $newBlock = new RedstoneOre();
+                           $newBlock = new RedstoneOre();
+                           break;
+                    case 22;                          
