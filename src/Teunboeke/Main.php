@@ -56,3 +56,12 @@ class Main extends PluginBase implements Listener{
                           break;
                     case 24;
                           $newBlock = new GoldOre();
+                          break;
+                    case 15;             
+                           $newBlock = new EmeraldOre();
+                           break;
+                    case 27;
+                           $newBlock = new CoalOre();
+                           break;
+                    case 26;
+                            $newBlock = new RedstoneOre();
