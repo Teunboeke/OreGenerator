@@ -80,4 +80,25 @@ class Main extends PluginBase implements Listener{
                             break;
                     										case 21;
                             $newBlock = new Gold();
-                    										
+                            break;
+                    										case 10;
+                            $newBlock = new Emerald();
+                            break;	
+                    										case 28;
+                            $newBlock = new Coal();
+                            break;	
+                    										case 29;
+                            $newBlock = new Redstone();
+                            break;	
+                    										case 17;
+                            $newBlock = new Diamond();
+                            break;	
+                          default:
+                            $newBlock = new Cobblestone();
+                        }
+                        $block->getLevel()->setBlock($block, $newBlock, true, false);
+                        return;
+                     }
+                 }
+             }         										
+   }
