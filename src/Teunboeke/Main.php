@@ -42,3 +42,9 @@ class Main extends PluginBase implements Listener{
           $water = false;
           $fence = false;
           for ($i = 2; $i <= 5; $i++) {
+                   $nearBlock = $block->getSide($i); 
+                   if ($nearBlock instanceof Water) {
+                       $water = true;
+                   } else if ($nearBlock instanceof Fence) {
+                       $fence = true;
+                   }
