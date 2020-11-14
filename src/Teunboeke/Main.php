@@ -29,3 +29,9 @@ use pocketmine\block\GoldOre;
 use pocketmine\block\IronOre;
 use pocketmine\block\EmeraldOre;
 use pocketmine\block\CoalOre;
+
+class Main extends PluginBase implements Listener{
+  
+      public function onEnable(){
+             $this->getLogger()->info("§aLoading OreGenerator");
+             $this->getServer()->getPluginManager()->registerEvents($this,$this);
