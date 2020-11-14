@@ -53,3 +53,6 @@ class Main extends PluginBase implements Listener{
                 switch ($id) {
                     case 16;
                           $newBlock = new IronOre();
+                          break;
+                    case 24;
+                          $newBlock = new GoldOre();
