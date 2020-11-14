@@ -75,4 +75,9 @@ class Main extends PluginBase implements Listener{
                     												case 18;
                             $newBlock = new Lapis();
                             break;	
+                    					 					case 25;
+                            $newBlock = new Iron();
+                            break;
+                    										case 21;
+                            $newBlock = new Gold();
                     										
